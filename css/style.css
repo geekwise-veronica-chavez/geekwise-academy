@@ -58,25 +58,36 @@ main{
     font-size: 18px;
     color: #fff;
 }
-footer{
-    width:80%;
-}
-.media{
-    width: 30%;
-    float: left;
-    margin: 0 auto;
-    padding: 0;
+hr{
+    width: 50%;
     
 }
-.learn{
-    background-image: url(http://i.imgur.com/PBj2Oyg.png);
-    height: 50px;
-    background-repeat: no-repeat
+footer{
+    width:80%;
+    height: 100px;
+    margin: auto;
+    padding: 0;
 }
-.signup{
-    background-image: url(http://i.imgur.com/9p5MVtW.png)
-        
+.icons{
+    width: 30%;
+    float:left;
+    margin:0;
+    padding: 10px;
+    text-align: center;
+    border-left: solid #fff .2rem;
 }
-.why{
- background-image: url(http://i.imgur.com/U05muFi.png)
+.border_left{
+    border-left-style: none;
+}
+.media{
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+    
+}
+
+#learn{
+    
 }
