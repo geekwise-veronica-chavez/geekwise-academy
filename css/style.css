@@ -21,17 +21,31 @@ header{
         width: 80%;
         height: 20px;
         text-align: center;
-    
+        padding-top: 10px;
 }
 li{
     width: 100%;
     list-style: none;
     display: inline;
     margin: 0 auto;
-    padding: 0;
     font-size: 14px;
-    text-transform: uppercase;
-  
+    text-transform: uppercase;  
+}
+.header_nav{
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+}
+.header_nav:hover{
+    background-color: #f9da0c;  
+}
+.nav_signup{
+    color:#7a1501;
+}
+.highlight{
+    background-color: #f9da0c;
+    font-size: 12px;
+    padding: 20px;
     
 }
 .image{
@@ -58,7 +72,21 @@ main{
     font-size: 18px;
     color: #fff;
 }
+.em_fast{
+    font-size: 28px;
+    text-transform: uppercase;
+    margin: 0;
+    
+}
+.quote{
+    font-size: 26px;
+    font-family: monospace;
+    margin: 0;
+    padding-bottom: 2rem;
+}
+
 hr{
+    
     width: 50%;
     
 }
@@ -86,6 +114,9 @@ footer{
     padding: 0;
     margin: 0;
     
+}
+.bottom_link{
+    text-decoration: none;
 }
 
 #learn{
