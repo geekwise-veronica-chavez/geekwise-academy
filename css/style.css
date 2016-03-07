@@ -273,8 +273,8 @@ footer{
   margin-left: 60rem;
 }
 .section_about{
-    width: 80%;
-    height:550px;
+    width: 75%;
+    height:570px;
     margin: auto;
 }
 #about{
@@ -283,10 +283,9 @@ footer{
     float: left;
     color: #fff;
     font-size: 14px;
-    padding: 15px;
+    padding-left: 25px;
     letter-spacing: 2px;
-}
-.about_what{
+    line-height: 1.3;
 
 }
 h1{
@@ -295,15 +294,39 @@ h1{
 .want_to{
     width:100%;
     height: 50px;
+    text-transform: uppercase;
     background-color: #f9da0c;
+    margin:0 auto;
+   padding-top: 25px;
     text-align: center;
-    padding-top:20px;
-    text-transform: capitalize;
+
     
 }
 #want_to{
-    color:black;
-    font-size: 25px;
+    color:#7a1501;
+    font-size: 15px;
     text-decoration: none;
     
+}
+
+@media only screen and (max-width:1165px){
+    .want_to{
+       position:relative;
+    }
+    #want_to{
+        transform: translateX(50%;)
+    }
+}
+@media only screen and (max-width:775px){
+    #about{
+        width: 100%;
+        height: auto;
+    }
+    .want_to{
+        top: 300px;
+    }
+    #want_to{
+        position: relative;
+        top: -250px;
+    }
 }
