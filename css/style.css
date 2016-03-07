@@ -48,6 +48,11 @@ li{
     padding: 20px;
     
 }
+.hamburger{
+    float: right;
+    text-align: right;
+    visibility: hidden;
+}
 .image{
     background-image: url(http://i.imgur.com/bgMQrQr.jpg);
     background-image: 100%;
@@ -119,6 +124,22 @@ footer{
     text-decoration: none;
 }
 
-#learn{
-    
+@media only screen and (max-width:920px){
+    .header_nav{
+        visibility: hidden;
+    }
+    .highlight{
+        visibility: hidden;
+        
+    }
+    .hamburger{
+        visibility: visible;
+        width: auto;
+        height: auto;
+        font-size: 22px;
+    }
+    .fa fa-bars{
+        color: grey;
+    }
 }
+
