@@ -200,6 +200,7 @@ footer{
     header{
         margin: 0;
         padding:0;
+        height: 180px
     }
     .hamburger{
         margin: 5px;
@@ -209,7 +210,7 @@ footer{
     .image{
         padding-top: 30px;
         background-position: center;
-        background-size: 270px;
+        background-size: 260px;
         height: 100px;
     }
     .em_fast{
