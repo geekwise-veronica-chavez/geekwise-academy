@@ -438,3 +438,55 @@ h1{
     background-color: #f9da0c;
     font-weight: bold;
 }
+
+/*team page css*/
+.color{
+    color:#7a1501;
+}
+.workshop_nav{
+    width:80%;
+}
+#team{
+    font-size: 48px;
+    text-transform: uppercase;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    font-family: monospace;
+    font-weight: bold;
+}
+.team_text{
+    font-size: 18px;
+    color: #fff;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    font-family: monospace;
+    font-weight: bold;
+    padding-top: 25px;
+}
+.team_wise{
+    width: 80%;
+    margin: auto;
+    padding-top: 25px;
+}
+.team_geek{
+    width: 25%;
+    float: left;
+    margin: auto;
+    text-align: center;
+    
+}
+.name{
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.photo_name{
+    text-decoration: none;
+    opacity: .5;
+}
+.photo_name:hover{
+    opacity: 1;
+}
