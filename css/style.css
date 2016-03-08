@@ -385,12 +385,18 @@ h1{
     width: 100%;
     font-size: 14px;
     padding-top: 30px;
+    padding-bottom: 30px;
+}
+/*course page css*/
+.course_table{
+    font-size: 12px;
 }
 .top_table{
-    
+    font-size: 14px;  
 }
 .topic{
-    
+    padding: 10px;
+    font-size: 14px;
 }
 
                 /*workshop css page begins*/
