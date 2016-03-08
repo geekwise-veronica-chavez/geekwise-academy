@@ -330,7 +330,7 @@ h1{
         top: -250px;
     }
 }
-/*course pages*/
+                                        /*course pages*/
 .course_page{
     background-color: #fff;
 }
@@ -391,4 +391,50 @@ h1{
 }
 .topic{
     
+}
+
+                /*workshop css page begins*/
+.main_workshop{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    
+}
+.work_sec{
+    width: 75%;
+    padding: 0;
+    margin: auto;
+    height: auto;
+    
+    
+}
+.work_header{
+    width: 100%;
+    font-size: 18px;
+    padding: 5px;
+    border-bottom: solid 1px lightgrey;
+    
+}
+.work_text{
+    font-size: 14px;
+}
+.bold_workshop{
+    font-size: 14px;
+    font-weight: bold;
+}
+.footer_work{
+    width: 100%;
+    height: 40px;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+}
+#bottom_work{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    background-color: #f9da0c;
+    font-weight: bold;
 }
