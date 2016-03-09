@@ -382,7 +382,8 @@ h1{
     width: 80%;
 }
 .course_info{
-    width: 100%;
+    width: 80%;
+    margin: auto;
     font-size: 14px;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -390,15 +391,67 @@ h1{
 /*course page css*/
 .course_table{
     font-size: 12px;
+    width: 85%;
+    margin: auto;
+}
+#fee{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+  
 }
 .top_table{
-    font-size: 14px;  
-}
-.topic{
-    padding: 10px;
-    font-size: 14px;
+    font-size: 14px; 
+    width: 100%;
 }
 
+#instructor{
+    text-align: left;
+    padding: 10px;
+    
+}
+#time{
+    text-align: left;
+}
+
+.topic{
+    padding: 20px;
+    font-size: 13px;
+    width: 55%;
+}
+u{
+    font-size: 15px;
+}
+.duration{
+    margin: 0;
+    padding: 5px;
+    width: 40px;
+    font-size: 13px;
+    
+}
+.time{
+    width: 10px;
+    text-align: left;
+    padding: 5px;
+}
+.fee{
+    width: 50px;
+    padding: 5px;
+}
+.instruction{
+    text-align: center;
+    width: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.enroll_sign{
+    padding: 15px;
+    background-color: #f9da0c;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
                 /*workshop css page begins*/
 .main_workshop{
     width: 100%;
