@@ -642,3 +642,15 @@ u{
     text-align: center;
     padding-top: 10px;
 }
+/*cohort css page*/
+.last_page{
+    background-color: #fff;
+}
+.cohort_head{
+    width: 80%;
+    margin: auto;
+}
+.tweeks{
+    width: 100%;
+}
+
