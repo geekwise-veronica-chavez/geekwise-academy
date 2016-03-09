@@ -452,6 +452,16 @@ u{
     text-transform: uppercase;
     color: black;
 }
+
+@media only screen and (max-width:480px){
+    #geekwise_small{
+        width: 100%;
+    } 
+}
+
+
+
+
                 /*workshop css page begins*/
 .main_workshop{
     width: 100%;
