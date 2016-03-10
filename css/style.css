@@ -722,7 +722,8 @@ ol{
     box-sizing: border-box;
     height: auto;
     width: 70%;
-    margin: auto
+    margin: auto;
+    padding-bottom: 15px;
 }
 
 .class_members{
@@ -751,7 +752,7 @@ ol{
     width: 100%;
     margin: auto;
     background-color: #fff;
-    height: 730px;
+    height: 800px;
 }
 
 /*
@@ -796,13 +797,9 @@ input[]:checked ~ .class2 {
     font-size: 18px;
     margin: auto;
     background-color: yellow;
-    padding: 8px;
     cursor: pointer;
     margin-top: 10px;
-    position: relative;
-
-   
-    
+    position: relative;  
 }
 .class_mem2:hover{
     text-decoration: underline;
