@@ -729,32 +729,45 @@ ol{
 }
 .group_bar{
     display: none;
-}
-input[type=checkbox] {
-   position: absolute;
-
-}
-input[type=checkbox]:checked ~ .class2 {
-   display: none;
+    width: 80%;
+    margin: auto;
+    background-color: #fff;
+    height: 500px;
 }
 
 /*
-#cohort_data: checked ~ .group_bar{
+input[]:checked ~ .class2 {
+   display: none;
+
+}
+*/
+
+
+#cohort_data:checked~.group_bar{
     display: block;
     
 }
-*/
 
 #cohort_data{
     display:none ;
 }
 
 .photos_cohort{
-    width: 200px;
+    width:200px;
 }
 
 .class2{
-    width: 200px;
+    width: 20%;
     text-align: center;
-    
+    padding: 15px;
+    float: left;
+}
+
+.name{
+    font-size: 14px;
+}
+
+.story{
+    font-size: 14px;
+    text-align: left;
 }
