@@ -771,3 +771,24 @@ input[]:checked ~ .class2 {
     font-size: 14px;
     text-align: left;
 }
+.class_mem2{
+    display: block;
+    width: 80%;
+    font-size: 18px;
+    margin: auto;
+    background-color: yellow;
+    padding: 8px;
+    cursor: pointer;
+    
+}
+.class_mem2:hover{
+    text-decoration: underline;
+}
+#cohort_data2:checked~.group_bar{
+    display: block;
+    
+}
+
+#cohort_data2{
+    display:none ;
+}
