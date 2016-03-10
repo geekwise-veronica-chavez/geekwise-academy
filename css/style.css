@@ -658,7 +658,7 @@ u{
     width: 75%;
     padding: 0;
     margin: auto;
-    height: auto;
+    height: ;
 }
 .cohort_top{
     width: 100%;
@@ -691,7 +691,7 @@ ol{
 }
 .cohort_members{
     width: 100%;
-    height: auto;
+    height:auto;
     background-color: #7a1501;
     display: block;
     
@@ -706,7 +706,7 @@ ol{
 .dropdown_bar{
     display: block;
     box-sizing: border-box;
-
+    height: auto;
 }
 
 .class_members{
@@ -718,7 +718,7 @@ ol{
     padding: 8px;
     cursor: pointer;
     position: relative;
-
+    
     
 }
 .class_members:hover{
@@ -735,7 +735,7 @@ ol{
     width: 80%;
     margin: auto;
     background-color: #fff;
-/*    height: 500px;*/
+    height: 730px;
 }
 
 /*
@@ -799,7 +799,9 @@ input[]:checked ~ .class2 {
 #cohort_data2{
     display:none ;
 }
-
+#cohort_data:checked{
+    
+}
 @media only screen and (max-width:73rem){
     ,cohort_members{
         display: block;
