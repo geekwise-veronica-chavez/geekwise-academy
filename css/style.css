@@ -667,6 +667,9 @@ u{
     width: 90%;
     position:absolute; 
 }
+.cohort-ham{
+    float: none;
+}
 
 .cohort_main{
     width: 75%;
@@ -808,25 +811,80 @@ input[]:checked ~ .class2 {
     display: block;
     
 }
-
 #cohort_data2{
     display:none ;
 }
 
 @media only screen and (max-width:73rem){
-    ,cohort_members{
-        display: block;
+    .cohort_head{
+        width: 100%;
+    }
+    #geekwise_small{
+        width: 150px;
+        padding: 10px;
+        margin: 0;
+        position: absolute;
+        
+        
+    }
+    .cohort-ham{
+        float: right;
+        position: relative;
+        top:10px;
+
+    }
+    .visible{
+        visibility: visible;
+        
     }
     .class2{
         width:100%;
-        box-sizing: border-box;
-        
-        
+        box-sizing: border-box; 
     
     }
     .photos_cohort{
         width: 100%;
         padding: 5px
     }
+    .group_bar{
+        height: 435rem;
+    }
+}
+@media only screen and (max-width:50rem){
+    .owl_upsidedown{
+        display: none;
+    } 
+    .visible{
+        position: relative;
+        top: -10px;
+        right: 60px;
+        clear:both;
+    }
+    .cohort-ham{
+        margin-right: 20px;
+        padding-right:10px; 
+    }
+    .group_bar{
+        height: 320rem;
+    }
+    .cohort_top{
+        position: relative;
+        top: -25px;
+    }
+}
+@media only screen and (max-width:30rem){
+    .visible{
+        float: right;
+        position: relative;
+        top: -5px;
+    }
+    .cohort_top{
+        position: relative;
+        top:-100px;
+    }
     
+    .group_bar{
+        height: 330rem;
+       
+    }
 }
