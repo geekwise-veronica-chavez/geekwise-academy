@@ -649,16 +649,30 @@ u{
 .cohort_head{
     width: 80%;
     margin: auto;
+    padding-bottom: 15px;
+    
+}
+.owl_upsidedown{
+    margin: 0;
+    padding: 0;
+    background-image: url(http://i.imgur.com/k8x3BtG.png);
+    background-repeat: no-repeat;
+    width: 28%;
+    height: 200px;
+    float: right;
+    position: relative;
 }
 .tweeks{
-    width: 100%;
+    padding-top: 20px;
+    width: 90%;
+    position:absolute; 
 }
 
 .cohort_main{
     width: 75%;
     padding: 0;
     margin: auto;
-    height: ;
+    padding-top: 50px;
 }
 .cohort_top{
     width: 100%;
@@ -707,11 +721,13 @@ ol{
     display: block;
     box-sizing: border-box;
     height: auto;
+    width: 70%;
+    margin: auto
 }
 
 .class_members{
     display: block;
-    width: 80%;
+    width: 100%;
     font-size: 18px;
     margin: auto;
     background-color: yellow;
@@ -732,7 +748,7 @@ ol{
 }
 .group_bar{
     display: none;
-    width: 80%;
+    width: 100%;
     margin: auto;
     background-color: #fff;
     height: 730px;
@@ -776,7 +792,7 @@ input[]:checked ~ .class2 {
 }
 .class_mem2{
     display: block;
-    width: 80%;
+    width: 100%;
     font-size: 18px;
     margin: auto;
     background-color: yellow;
@@ -799,9 +815,7 @@ input[]:checked ~ .class2 {
 #cohort_data2{
     display:none ;
 }
-#cohort_data:checked{
-    
-}
+
 @media only screen and (max-width:73rem){
     ,cohort_members{
         display: block;
