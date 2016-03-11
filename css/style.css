@@ -286,18 +286,21 @@ footer{
     padding-left: 25px;
     letter-spacing: 2px;
     line-height: 1.3;
-
 }
+.length{
+    width: 100%;
+}
+
 h1{
     text-transform: uppercase;
 }
 .want_to{
     width:100%;
-    height: 50px;
+    height: 30px;
     text-transform: uppercase;
     background-color: #f9da0c;
     margin:0 auto;
-   padding-top: 25px;
+   padding-top: 15px;
     text-align: center;
 
     
