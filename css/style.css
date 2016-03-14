@@ -130,11 +130,24 @@ footer{
 }
 
 @media only screen and (max-width:900px){
-    .header_nav{
-       visibility: ;
+    
+    .top_nav{
+        display: inline;
+        width: 25px;
+        margin:0;
+        padding: 0;
+        height: 50px;
+    }
+    li{
+        display: block;
+        text-align: center;
+        padding: 10px;
+        margin:0 auto;
+        width: 25%;
+        
     }
     .highlight{
-        visibility:;
+        background-color: #fff;
         
     }
     .hamburger{
@@ -147,16 +160,15 @@ footer{
         padding-left: 10px;
         padding-right: 10px;  
     }
-     
-    #burger: checked~.header_nav{
-        display:block;
+    
+    #burger:checked~nav{
+        display:none;
         
     }
     #burger{
         display: none;
     }
     #label{
-        display: block;
         cursor: pointer;
         
     }
