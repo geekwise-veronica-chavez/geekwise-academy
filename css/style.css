@@ -131,10 +131,10 @@ footer{
 
 @media only screen and (max-width:900px){
     .header_nav{
-        visibility: hidden;
+       visibility: ;
     }
     .highlight{
-        visibility: hidden;
+        visibility:;
         
     }
     .hamburger{
@@ -145,13 +145,12 @@ footer{
         border: lightgrey solid .1rem;
         border-radius: .5rem;
         padding-left: 10px;
-        padding-right: 10px;
-        
+        padding-right: 10px;  
     }
-    #burger:checked~.top_nav{
+     
+    #burger: checked~.header_nav{
         display:block;
-         width: 50%;
-         height: 100px;
+        
     }
     #burger{
         display: none;
@@ -165,9 +164,14 @@ footer{
         background-color: grey;
         opacity: .3;
     }
+
+   
     .fa{
         color:grey;
     
+    }
+    .fa:hover{
+        color: #fff;
     }
     
     footer{
