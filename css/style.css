@@ -49,6 +49,7 @@ li{
     padding: 16px;
     
 }
+
 .hamburger{
     float: right;
     text-align: right;
@@ -128,9 +129,16 @@ footer{
 .bottom_link{
     text-decoration: none;
 }
+#burger{
+    display: none;
+}
+
+
 
 @media only screen and (max-width:900px){
-    
+     #burger:checked~nav{
+        display:none;
+}
     .top_nav{
         display: inline;
         width: 25px;
@@ -143,9 +151,10 @@ footer{
         text-align: center;
         padding: 10px;
         margin:0 auto;
-        width: 25%;
-        
+        width: 25%;  
+        height: 5px;
     }
+    
     .highlight{
         background-color: #fff;
         
@@ -161,9 +170,8 @@ footer{
         padding-right: 10px;  
     }
     
-    #burger:checked~nav{
+    #burger:checked~li{
         display:none;
-        
     }
     #burger{
         display: none;
@@ -193,8 +201,6 @@ footer{
     .icons{
         width: 28%;
     }
-    
-    
 }
 @media only screen and (max-width:730px){
     header{
@@ -205,6 +211,19 @@ footer{
         background-origin: border-box;
         height: 250px;
         
+    }
+       .header_nav{
+        padding: 0;
+        margin: 0;
+        
+    }
+    .header_nav:hover{
+        padding: 0;
+        margin: auto 0;
+    }
+    .highlight{
+        padding: 5px;
+        font-size: 15px;
     }
     footer{
         width: 80%;
@@ -223,6 +242,19 @@ footer{
         height: 255px;
         
     } 
+       .header_nav{
+        padding: 0;
+        margin: 0;
+        
+    }
+    .header_nav:hover{
+        padding: 0;
+        margin: auto 0;
+    }
+    .highlight{
+        padding: 5px;
+        font-size: 15px;
+    }
     footer{
         width: 80%;
     }
@@ -233,24 +265,26 @@ footer{
 }
 
 @media only screen and (max-width:320px){
+    
     header{
         margin: 0;
         padding:0;
-        height: 180px
+        height: 200px
     }
+    
     .hamburger{
         margin: 5px;
         font-size: 18px;
     }
-    
-   
     
     .image{
         padding-top: 30px;
         background-position: center;
         background-size: 260px;
         height: 100px;
+        
     }
+    
     .em_fast{
         padding-top: 25px;
         font-size: 25px;
@@ -280,7 +314,26 @@ footer{
     hr{
         width: 100%;
     }
+    li{
+        margin: 0 auto;
+        width: 25%; 
+    }
+    .header_nav{
+        padding: 0;
+        margin: 0;
+        
+    }
+    .header_nav:hover{
+        padding: 0;
+        margin: auto 0;
+    }
+    .highlight{
+        padding: 5px;
+        font-size: 15px;
+    }
 }
+
+
 /*about page css*/
 
 .about_header{
@@ -295,7 +348,7 @@ footer{
     
     }
 .about_nav{
-    width: 60%;
+    width: 80%;
     padding: 15px;
 }
 .about_quote{
@@ -306,9 +359,6 @@ footer{
     font-weight: bold;
     padding-top: 50px;
 
-}
-.middle{
-  margin-left: 60rem;
 }
 .section_about{
     width: 75%;
@@ -343,6 +393,7 @@ h1{
 
     
 }
+
 #want_to{
     color:#7a1501;
     font-size: 15px;
@@ -350,18 +401,32 @@ h1{
     
 }
 
+
+#dropdown{
+    display: none;
+}
+
+ .navagation_list{
+        padding-top: 30px;
+        display:block;
+        margin-left: 20px;
+    }
+
+
 @media only screen and (max-width:30rem){
     .about_header{
         width: 100%;
-        height: 60px;
+        height: 80px;
+        margin: 0;
         
     }
     .about_quote{
         font-size: 15px;
-        margin-top: 50px;
+        margin-top: 120px;
         float:left;
     }
-
+   
+    
     
 }
 
@@ -378,6 +443,41 @@ h1{
         position: relative;
         top: -250px;
     }
+    
+}
+@media only screen and (max-width:1150px){      
+.nav_div{
+    width:80%;
+    font-weight: 600;
+    position:relative;
+    top:0rem;
+    margin-top: 15px;
+}
+
+.nav_div li{
+    font-size: 1.5rem;
+}
+
+  
+    .nav_div{
+        display: none;
+    }
+    
+    label{
+        display: block;
+        margin:0 auto;
+        width:10%;
+        float: right;
+        font-size: 18px;
+    }
+    
+
+    input:checked + .nav_div{
+        display: block;
+    }
+    
+   
+   
 }
         /*course pages*/
 .course_page{
