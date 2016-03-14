@@ -129,9 +129,7 @@ footer{
 .bottom_link{
     text-decoration: none;
 }
-#burger{
-    display: none;
-}
+
 
 
 
@@ -400,9 +398,10 @@ h1{
     text-decoration: none;
     
 }
-
-
 #dropdown{
+    display: none;
+}
+label{
     display: none;
 }
 
