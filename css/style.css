@@ -421,14 +421,11 @@ label{
     }
     .about_quote{
         font-size: 15px;
-        margin-top: 120px;
         float:left;
-    }
-   
-    
-    
+        margin: 0;
+        padding: 15px;
+    }   
 }
-
 
 @media only screen and (max-width:775px){
     #about{
@@ -445,16 +442,20 @@ label{
     
 }
 @media only screen and (max-width:1150px){      
+    header{
+        height: 230px;
+    }
 .nav_div{
     width:80%;
-    font-weight: 600;
     position:relative;
     top:0rem;
     margin-top: 15px;
+    height: 170px;
 }
 
 .nav_div li{
     font-size: 1.5rem;
+    width: 25%;
 }
 
   
@@ -470,13 +471,10 @@ label{
         font-size: 18px;
     }
     
-
     input:checked + .nav_div{
         display: block;
     }
     
-   
-   
 }
         /*course pages*/
 .course_page{
@@ -500,9 +498,7 @@ label{
 .course{
     color:#fff;
     width:8%;
-    float: left;
-    
-    
+    float: left;  
 }
 .yellow{
     color:#f9da0c;
@@ -754,15 +750,28 @@ u{
     padding: 15px;
      text-decoration: none;
 }
+#burger{
+    display: none;
+}
 @media only screen and (max-width:30rem){
     .work{
         visibility: hidden;
+        padding: 0;
+        margin: 0;
     }
     
     .contact_info{
         position: relative;;
         top: -65px;
     }
+    #address{
+        font-size: 12px;
+    }
+    #terry{
+        
+        
+    }
+    
     
 }
 @media only screen and (max-width:50rem){
@@ -773,7 +782,11 @@ u{
         top: 15px;
     } 
 }
-
+@media only screen and (max-width:1200px){
+   .contact_header{
+        display: inline-flex;
+    }
+}
 
 /* signIn css begins */
 #sign_in_tab{
