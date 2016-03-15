@@ -129,10 +129,6 @@ footer{
 .bottom_link{
     text-decoration: none;
 }
-
-
-
-
 @media only screen and (max-width:900px){
      #burger:checked~nav{
         display:none;
@@ -483,6 +479,7 @@ label{
 .course_header{
     background-color:#7a1501;
     height: 150px;
+   
     
 }
 .course_sec{
@@ -494,14 +491,23 @@ label{
     width: 95%;
     padding: 0;
     margin: 0;
+    
 }
 .course{
     color:#fff;
-    width:8%;
-    float: left;  
+    width:7%;
+    float: left; 
+    margin-left: 5px;
+}
+
+.geekwise_sm{
+    float: left;
 }
 .yellow{
     color:#f9da0c;
+}
+.yellow:hover{
+    color:#fff;
 }
 
 .right{
@@ -532,7 +538,7 @@ label{
     padding-top: 30px;
     padding-bottom: 30px;
 }
-/*course page css*/
+/*course page table css*/
 .course_table{
     font-size: 12px;
     width: 85%;
@@ -597,10 +603,12 @@ u{
     color: black;
 }
 
+@media only screen and (max-width:1200px)
+    
 @media only screen and (max-width:480px){
-    #geekwise_small{
-        width: 100%;
-    } 
+    .course_quote{
+        
+    }
 }
 
 
