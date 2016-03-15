@@ -14,9 +14,16 @@ header{
     height: auto;
     margin: 0 auto;
     padding: 0;
-    background-color: #fff;
-    
+    background-color: #fff;    
 }
+
+.flex{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-item:stretch;
+    align-items: stretch;
+}
+
 nav{
     width: 80%;
     margin: auto;
