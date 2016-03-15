@@ -718,6 +718,9 @@ u{
 /*contact css page*/
 .contact_header{
     height:80px;
+    margin: 0;
+    padding: 0;
+    display: flex;
 }
 .background{
     background-image: url(http://i.imgur.com/BlXBrUW.jpg?1);
@@ -785,6 +788,19 @@ u{
 @media only screen and (max-width:1200px){
    .contact_header{
         display: inline-flex;
+    }
+    #geekwise_small{
+        position: relative;
+        top: 25px;
+    }
+    #label{
+        position: relative;
+        top: 35px;
+        
+    }
+    .course_page{
+        padding: 0;
+        
     }
 }
 
