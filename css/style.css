@@ -87,9 +87,15 @@ li{
     display: none;
     
 }
+/*
 #dropdown:checked+.nav_main_bar{
     display: none;
 }  
+*/
+.white{
+    width: 100%;
+    background-color: #fff;
+}
 .image{
     background-image: url(http://i.imgur.com/bgMQrQr.jpg);
     background-image: 100%;
@@ -173,9 +179,7 @@ footer{
      
     li{
         display: block;
-      
     }
-    
     .highlight{
         background-color: #fff;
         
@@ -256,10 +260,12 @@ footer{
     
 }
 @media only screen and (max-width:520px){
+/*
     header{
         height: 255px;
         
     } 
+*/
   
     .highlight{
         padding: 5px;
@@ -346,11 +352,12 @@ footer{
 #geekwise_small{
     width: 15%;
     float: left;
+    padding-top: 15px
     
     }
 .about_nav{
-    width: 80%;
-    padding: 15px;
+    width: 90%;
+    
 }
 .about_quote{
     font-size: 32px;
