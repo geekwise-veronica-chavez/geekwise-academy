@@ -6,39 +6,50 @@ html,body{
 }
 body{
        background-color: #7a1501;
+        padding: 0;
+        margin: 0;
 }
 header{
     width: 100%;
     height: auto;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     background-color: #fff;
     
 }
-.top_nav{
-       margin:0 auto;
-        padding: 0;
-        width: 80%;
-        height: 20px;
-        text-align: center;
-        padding-top: 10px;
+nav{
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    
+    
 }
-li{
-    width: 100%;
-    list-style: none;
-    display: inline;
-    margin: 0 auto;
-    font-size: 14px;
-    text-transform: uppercase;  
+.main_bar{
+    width: 60%;
+    margin: auto;  
+   
 }
 
-.header_nav{
-    color: black;
-    text-decoration: none;
-    padding: 20px;
+li{
+    list-style: none;
+    display:inline;
+    width: 100%;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 0 auto;
+    
 }
-.header_nav:hover{
-    background-color: #f9da0c;  
+.main{
+    color: black;
+    font-family: franchise;
+    text-decoration: none;
+   
+}
+.main:hover{
+    background-color: #f9da0c;
+    text-decoration: none;
+    padding: 15px;
 }
 .nav_signup{
     color:#7a1501;
@@ -49,14 +60,36 @@ li{
     padding: 16px;
     
 }
-
-.hamburger{
+ .label_main{
     float: right;
-    text-align: right;
-    visibility: hidden;
+    font-size: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: .5px solid lightgrey;
+    display: none;
+
 }
 
-   
+.fa{
+    color: grey;
+
+}
+.label_main:hover{
+    background-color: lightgrey;
+    color: #fff;
+    
+}
+#dropdown{
+    float: left;
+    display: none;
+    
+}
+#dropdown:checked+.nav_main_bar{
+    display: none;
+}  
 .image{
     background-image: url(http://i.imgur.com/bgMQrQr.jpg);
     background-image: 100%;
@@ -64,6 +97,7 @@ li{
     background-repeat: no-repeat;
     background-position: center;
     margin: auto;
+ 
     
 }
 main{
@@ -129,60 +163,50 @@ footer{
 .bottom_link{
     text-decoration: none;
 }
-@media only screen and (max-width:900px){
-     #burger:checked~nav{
-        display:none;
-}
-    .top_nav{
-        display: inline;
-        width: 25px;
-        margin:0;
-        padding: 0;
-        height: 50px;
+@media only screen and (max-width:1200px){
+    .main_bar{
+        width: 80%;
+        text-align: center;
     }
+}
+@media only screen and (max-width:900px){
+     
     li{
         display: block;
-        text-align: center;
-        padding: 10px;
-        margin:0 auto;
-        width: 25%;  
-        height: 5px;
+      
     }
     
     .highlight{
         background-color: #fff;
         
     }
-    .hamburger{
-        visibility: visible;
-        width: auto;
-        height: auto;
-        font-size: 28px;
-        border: lightgrey solid .1rem;
-        border-radius: .5rem;
-        padding-left: 10px;
-        padding-right: 10px;  
-    }
-    
-    #burger:checked~li{
+    .nav_main_bar{
+        width:100%;
         display:none;
-    }
-    #burger{
-        display: none;
-    }
-    #label{
-        cursor: pointer;
         
     }
-    #label:hover{
-        background-color: grey;
-        opacity: .3;
+    
+    .label_main{
+        display: block;
+    }
+    
+    
+    #dropdown:checked+.nav_main_bar{
+        display: block;
+    }
+    
+    .main_bar{
+        width: 80%;
+        padding-top: 10px;
+    }
+    
+    li{
+        display: block;
     }
 
    
     .fa{
         color:grey;
-    
     }
     .fa:hover{
         color: #fff;
@@ -236,15 +260,7 @@ footer{
         height: 255px;
         
     } 
-       .header_nav{
-        padding: 0;
-        margin: 0;
-        
-    }
-    .header_nav:hover{
-        padding: 0;
-        margin: auto 0;
-    }
+  
     .highlight{
         padding: 5px;
         font-size: 15px;
@@ -258,7 +274,7 @@ footer{
     }
 }
 
-@media only screen and (max-width:320px){
+@media only screen and (min-width:120px)(max-width:320px){
     
     header{
         margin: 0;
@@ -266,11 +282,10 @@ footer{
         height: 200px
     }
     
-    .hamburger{
-        margin: 5px;
-        font-size: 18px;
+   
+    .nav_main_bar{
+        height: 100px
     }
-    
     .image{
         padding-top: 30px;
         background-position: center;
@@ -312,15 +327,7 @@ footer{
         margin: 0 auto;
         width: 25%; 
     }
-    .header_nav{
-        padding: 0;
-        margin: 0;
-        
-    }
-    .header_nav:hover{
-        padding: 0;
-        margin: auto 0;
-    }
+   
     .highlight{
         padding: 5px;
         font-size: 15px;
@@ -438,9 +445,11 @@ label{
     
 }
 @media only screen and (max-width:1150px){      
+/*
     header{
         height: 230px;
     }
+*/
 .nav_div{
     width:80%;
     position:relative;
@@ -462,7 +471,7 @@ label{
     label{
         display: block;
         margin:0 auto;
-        width:10%;
+/*        width:10%;*/
         float: right;
         font-size: 18px;
     }
