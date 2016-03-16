@@ -151,12 +151,104 @@ label{
         margin-left: 20px;
     }
 
+@media only screen and (max-width:1200px){
+    .img_owl{
+        width: 100%;
+    }
+    .about_quote{
+        width:50%;
+    }
+    .flex-li{
+        width:7rem;
+    }
+     
+@media only screen and (max-width:1000px){      
+    .about_quote{
+        width: 45%;
+        position: relative;
+        top: -45px
+    }
+    .flexbox{
+       
+    }
+  
+    .nav_div{
+        display: none;
+    }
+    
+    .about-label{
+        display: block;
+        font-size: 18px;
+        float: right;
+        padding:10px;
+        margin-right: 5px;
+        border: solid lightgrey 2px;
+        border-radius: 5px;
+        
+    
+    }
+    
+    input:checked + .nav_div{
+        display: block;
+    }
+    
+}
 
+    @media only screen and (max-width:900px){
+        .img{
+            display: none;
+        }
+       
+        #geekwise_small{
+            width: 150px;
+        }
+        header{
+            width: 100%;
+        }
+        nav{
+            width: 100%;
+        }
+        .flexbox{
+            flex: box;
+            width: 100%;
+            height: auto;
+            background-color: #fff;
+        }
+        .flex-li{
+            display: block;
+            width: 100%;
+            text-align: center
+        }
+        .highlight{
+            position: relative;
+            top: 0;
+            margin: 0;
+        }
+         .about_quote{
+           text-align: left;
+            width: 100%;
+            
+        }
+    }
+@media only screen and (max-width:775px){
 
+    #about{
+        width: 100%;
+        height: auto;
+    }
+    .want_to{
+        top: 300px;
+    }
+    #want_to{
+        position: relative;
+        top: -250px;
+    }
+    
+}
 @media only screen and (max-width:30rem){
     .about_header{
         width: 100%;
-        height: 80px;
+        height: auto;
         margin: 0;   
     }
     .flexbox{
@@ -175,66 +267,5 @@ label{
     }
 }
 
-@media only screen and (max-width:775px){
-    .nav_about{
-        
-        
-    }
-    .flexbox{
-    
-        
-    }
-    #about{
-        width: 100%;
-        height: auto;
-    }
-    .want_to{
-        top: 300px;
-    }
-    #want_to{
-        position: relative;
-        top: -250px;
-    }
-    
-}
-@media only screen and (max-width:1150px){      
-    .about_quote{
-        width: 30%;
-    }
-    .flexbox{
-        -webkit-flex:flex-end;
-        justify-content: flex-end;
 
-    }
-  
-    .nav_div{
-        display: none;
-    }
-    
-    .about-label{
-        display: block;
-        font-size: 18px;
-        float: right;
-        position: relative;
-        top: -80px;
-        padding:10px;
-        margin-right: 5px;
-        border: solid lightgrey 2px;
-        border-radius: 5px;
-        
-    
-    }
-    
-    input:checked + .nav_div{
-        display: block;
-    }
-    
-}
-@media only screen and (max-width:1200px){
-    .img_owl{
-        
-    }
-    .about_quote{
-        width:50%;
-    }
-    
+
