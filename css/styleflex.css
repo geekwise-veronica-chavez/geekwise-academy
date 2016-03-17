@@ -186,17 +186,24 @@ label{
         font-size: 18px;
         float: right;
         padding:10px;
-        margin-right: 5px;
-        border: solid lightgrey 2px;
+        border: solid lightgrey 1px;
         border-radius: 5px;
-        
-    
+        position: relative;
+        left: 85px;
+        margin-top: 5px;
     }
     
     input:checked + .nav_div{
         display: block;
     }
-    
+    .highlight{
+        margin: 0;
+        position: absolute;
+        top: 0;
+        right: 65px;
+        margin-top: 25px;    
+    }
+
 }
 
     @media only screen and (max-width:900px){
@@ -218,6 +225,7 @@ label{
             width: 100%;
             height: auto;
             background-color: #fff;
+            padding: 0;
         }
         .flex-li{
             display: block;
@@ -236,7 +244,14 @@ label{
         }
     }
 @media only screen and (max-width:775px){
-
+    header{
+        height: auto;
+        
+    }
+    .nav_about{
+    
+        
+    }
     #about{
         width: 100%;
         height: auto;
