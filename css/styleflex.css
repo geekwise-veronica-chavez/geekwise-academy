@@ -157,6 +157,19 @@ label{
     }
 
 @media only screen and (max-width:1200px){
+    header{
+        height: auto;
+        width: 100%;
+    }
+    .about_header{
+        height: auto;
+        width: 100%;
+    }
+    .nav_about{
+        height: auto;
+        width: 100%;
+    }
+    
     .img_owl{
         width: 100%;
     }
@@ -166,6 +179,7 @@ label{
     .flex-li{
         width:7rem;
     }
+    
      
 @media only screen and (max-width:1000px){      
     .about_quote{
@@ -189,7 +203,6 @@ label{
         border: solid lightgrey 1px;
         border-radius: 5px;
         position: relative;
-        left: 85px;
         margin-top: 5px;
     }
     
@@ -203,6 +216,9 @@ label{
         right: 65px;
         margin-top: 25px;    
     }
+    label{
+        margin-right: 15px;
+    }
 
 }
 
@@ -213,6 +229,7 @@ label{
        
         #geekwise_small{
             width: 150px;
+            padding: 5px;
         }
         header{
             width: 100%;
@@ -234,14 +251,24 @@ label{
         }
         .highlight{
             position: relative;
-            top: 0;
+            top: -7px;
             margin: 0;
+            left: 5px;
+             
+        }
+        .img_owl{
+    
         }
          .about_quote{
-           text-align: left;
+            text-align: left;
             width: 100%;
+            padding: 5px;
+            position: relative;
+            top: -108px
+        
             
         }
+        
     }
 @media only screen and (max-width:775px){
     header{
@@ -263,6 +290,9 @@ label{
         position: relative;
         top: -250px;
     }
+    label{
+        margin-right: 50px;
+    }
     
 }
 @media only screen and (max-width:30rem){
@@ -279,11 +309,14 @@ label{
     
     }
     .flex-li{
-        width: 100px;
+       
     }
     .about_quote{
         font-size: 14px;
         text-align: left;
+    }
+    label{
+        margin-right: 90px;
     }
 }
 
