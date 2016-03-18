@@ -93,12 +93,12 @@ header{
 main{
     width: 100%;
     background-color: #7a1501;
-    height: 50rem;
+    height: auto;
 }
 
 .section_about{
     width: 80%;
-    height:auto;
+    height:55rem;
     margin: auto;
     clear: both;
     background-color: #7a1501;
