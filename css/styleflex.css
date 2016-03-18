@@ -93,7 +93,7 @@ header{
 main{
     width: 100%;
     background-color: #7a1501;
-    height: 80rem;
+    height: 50rem;
 }
 
 .section_about{
@@ -133,6 +133,7 @@ h1{
     margin:0 auto;
    padding-top: 15px;
     text-align: center;
+    float: left;
 
     
 }
@@ -179,7 +180,7 @@ label{
     .flex-li{
         width:7rem;
     }
-    
+}
      
 @media only screen and (max-width:1000px){      
     .about_quote{
@@ -187,10 +188,7 @@ label{
         position: relative;
         top: -45px
     }
-    .flexbox{
-       
-    }
-  
+
     .nav_div{
         display: none;
     }
@@ -219,7 +217,12 @@ label{
     label{
         margin-right: 15px;
     }
-
+    .img_owl{
+        margin-bottom: 35px;
+    }
+    .section_about{
+        
+    }
 }
 
     @media only screen and (max-width:900px){
