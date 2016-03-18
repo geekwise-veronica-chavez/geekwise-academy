@@ -1079,3 +1079,57 @@ input[]:checked ~ .class2 {
     padding: 5px;
     margin: 0;
 }
+@media only screen and (max-width:900px){
+    .team-pages-media{
+        width: 100%;
+    }
+    #team_jake{
+        text-align: right;
+    }
+    .last-layout{
+        width: 100%;
+        clear: both;
+    }
+    .article-info{
+        width: 30%;
+        font-size: 18px;
+        
+    }
+    .jake{
+        width: 30%;
+        float: left;
+        padding: 0;
+        margin: 0;
+    }
+    #size-pic{
+        margin: 0;
+        padding: 0;
+        width: 400px;
+        
+    }
+}
+@media only screen and (max-width:480px){
+    
+    #team_jake{
+       width: 100px;
+        text-align:left;
+    }
+    .last-layout{
+        width: 90%;
+        padding: 0;
+        
+    }
+    .article-info{
+        width: 100%;
+        font-size: 18px;
+    }
+    .jake{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    #size-pic{
+        width: 100%;
+    }
+    
+}
