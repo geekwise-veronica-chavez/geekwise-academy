@@ -28,7 +28,7 @@ nav{
     width: 80%;
     margin: auto;
     padding: 10px;
-    
+   
     
 }
 .main_bar{
@@ -808,6 +808,7 @@ u{
     height: 200px;
     float: right;
     position: relative;
+    top: -80px;
 }
 .tweeks{
     padding-top: 20px;
@@ -1031,4 +1032,18 @@ input[]:checked ~ .class2 {
         height: 330rem;
        
     }
+}
+.over-owl{
+    
+}
+#team_jake{
+    width: 50%;
+    height: auto;
+    font-size: 52px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: monospace;
+    padding: 30px;
+    text-align: right;
+    margin-left: 95px;
 }
