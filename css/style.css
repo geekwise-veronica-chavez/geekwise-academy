@@ -1033,8 +1033,13 @@ input[]:checked ~ .class2 {
        
     }
 }
+.margin-right{
+    padding: 10px;
+}
 .over-owl{
-    
+    width: 80%;
+    padding: 0;
+    transform: translateX(50px)
 }
 #team_jake{
     width: 50%;
@@ -1046,4 +1051,31 @@ input[]:checked ~ .class2 {
     padding: 30px;
     text-align: right;
     margin-left: 95px;
+}
+.last-layout{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    padding: 20px;
+    
+}
+.article-info{
+    margin: auto;
+    width: 45%;
+    font-size: 22px;
+    color: #fff;
+    float: left;
+    text-align: left;
+    padding: 15px;
+}
+.jake{
+    margin-top: 55px;
+}
+#size-pic{
+    width: 500px;
+}
+.bold-text{
+    font-weight: bold;
+    padding: 5px;
+    margin: 0;
 }
