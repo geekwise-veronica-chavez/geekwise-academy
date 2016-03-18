@@ -361,14 +361,19 @@ footer{
 .course_header{
     background-color:#7a1501;
     height: 100px;
-  
-   
-    
 }
-.course_sec{
-    width: 80%;
-    margin: auto;
+.red-bg{
+    background-color:#7a1501;
+    padding: 25px;
+     
 }
+/*
+.geekwise_sm{
+
+    margin-left: 125px;
+
+}
+*/
 
 .course_nav{
     width: 90%;
@@ -383,10 +388,6 @@ footer{
 .course{
     color:#fff; 
    
-}
-
-.geekwise_sm{
-    float: left;
 }
 .yellow{
     color:#f9da0c;
@@ -490,7 +491,32 @@ u{
 
 @media only screen and (max-width:1200px)
     
-@media only screen and (max-width:480px){
+@media only screen and (max-width:780px){
+    
+    .geekwise_sm{
+    
+    }
+    .top_table{
+        display: none;
+    }
+    .media_780{
+        width: 100%;
+    }
+    .topic{
+        width: 100%;
+    }
+    .duration{
+        width:100%;
+    }
+    .time{
+        width: 100%;
+    }
+    .fee{
+        width: 100%;
+    }
+    .enrol{
+        width: 100%
+    }
     .course_quote{
         
     }
@@ -519,6 +545,7 @@ u{
     font-size: 18px;
     padding: 5px;
     border-bottom: solid 1px lightgrey;
+    text-transform: uppercase;
     
 }
 .work_text{
@@ -769,11 +796,8 @@ u{
 .last_page{
     background-color: #fff;
 }
-.cohort_head{
-    width: 80%;
-    margin: auto;
-    padding-bottom: 15px;
-    
+.white-bg{
+    margin: auto; 
 }
 .owl_upsidedown{
     margin: 0;
@@ -944,9 +968,7 @@ input[]:checked ~ .class2 {
     }
     #geekwise_small{
         width: 150px;
-        padding: 10px;
         margin: 0;
-        position: absolute;
         
         
     }
