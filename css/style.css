@@ -968,10 +968,9 @@ input[]:checked ~ .class2 {
     }
     #geekwise_small{
         width: 150px;
-        margin: 0;
-        
-        
+        margin: 0;    
     }
+    
     .cohort-ham{
         float: right;
         position: relative;
