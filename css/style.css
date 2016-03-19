@@ -32,7 +32,7 @@ nav{
     
 }
 .main_bar{
-    width: 60%;
+    width: 50%;
     margin: auto;  
 }
 
@@ -40,15 +40,16 @@ li{
     list-style: none;
     display:inline;
     width: 100%;
-    font-size: 14px;
+    font-size: 20px;
     text-transform: uppercase;
     padding: 10px;
     margin: 0 auto;
+    font-family: "h2";
+    
     
 }
 .main{
     color: black;
-    font-family: franchise;
     text-decoration: none;
    
 }
