@@ -1,0 +1,17 @@
+@font-face{
+    font-family:"ciria";
+    src:url("../fonts/ciria.woff");
+} 
+
+@font-face{
+    font-family:"franchise";
+    src:url("../fonts/franchise.woff")
+}
+@font-face{
+    font-family:"h1";
+    src:url("../fonts/h1.woff");
+}
+@font_face{
+    font-family: "h2";
+    src: url("../fonts/h1.woff2");
+}
