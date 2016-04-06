@@ -828,8 +828,43 @@ u{
 .last_page{
     background-color: #fff;
 }
+
+.cohort_nav{
+    width: 80%;
+    position: relative;
+    top: -180px;
+    
+
+}
+.margin_right{
+    width: 75%;
+   
+}
+.cohort-li{
+    width:
+}
+.cohort-li:hover{
+    background-color: #f9da0c;
+}
+.main2{
+    text-decoration: none;
+    color: black;
+}
+.cohort-sign{
+     background-color: #f9da0c;
+    padding: 20px;
+    
+}
+.co-sign{
+    text-decoration: none;
+   color:  #7a1501;
+    font-size: 12px;
+}
 .white-bg{
-    margin: auto; 
+    margin: auto;
+    width: 85%;
+    height: 20px;
+    
 }
 .owl_upsidedown{
     margin: 0;
@@ -837,10 +872,8 @@ u{
     background-image: url(http://i.imgur.com/k8x3BtG.png);
     background-repeat: no-repeat;
     width: 28%;
-    height: 200px;
+    height: 30vh;
     float: right;
-    position: relative;
-    top: -80px;
 }
 .tweeks{
     padding-top: 20px;
