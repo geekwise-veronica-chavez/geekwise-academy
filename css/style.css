@@ -156,7 +156,7 @@ main{
     color: #fff;
 }
 .em_fast{
-    font-size: 2.0em;
+    font-size: 1.8em;
     text-transform: uppercase;
     margin: 0;
     font-family: "franchise";
@@ -175,14 +175,14 @@ main{
 hr{
     
     width: 50%;
-    
+   
 }
 footer{
     width:85%;
     max-width: 80%;
-    height: 100px;
     margin: auto;
     padding: 0;
+    height: 200px
 }
 .icons{
     width: 30%;
@@ -190,17 +190,30 @@ footer{
     float:left;
     margin-top:25px;
     padding: 10px;
+    padding-bottom: 30px;
     text-align: center;
-    border-left: solid #fff .2rem;
+    
+}
+.vertical-line{
+    margin: 20px 10px 0px 10px;
+    border-right: 1px solid white;
+    font-size: .1em;
+    height: 100px;
+    overflow: hidden;
+    width: 1px;
+    display: inline-block;
+    vertical-align: middle;
+    float: left;
 }
 .border_left{
     border-left-style: none;
 }
+
 .media{
     color: #fff;
     font-size: 13px;
     text-transform: uppercase;
-    padding: 0;
+    padding: 5px;
     margin: 0;
     font-family: "lato", sans-serif;
     font-weight: bold;
