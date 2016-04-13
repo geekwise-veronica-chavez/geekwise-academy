@@ -16,8 +16,8 @@ header{
     background-color: #fff;
 }
 .about_header{
-    width: 80%;
-    height: 100px;
+    width: 75%;
+    height:100px;
     margin: 0 auto;
     padding: 0;
     background-color: #fff;
@@ -25,19 +25,25 @@ header{
 #geekwise_small{
     width: 15%;
     float: left;
-    padding-top: 15px
+    padding-top: 20px;
+    padding-left: 30px;
     
 }
 .nav_about{
-    width: 80%;
-    float: right;
+    width: 75%;
+    float: left;
+    padding: 0;
+    margin: 0;
+    
 }
 .flexbox{
     width: 100%;
+    margin: 0;
+    
 }
 .flex-li{
     display: inline-flex;
-    width: 10%;
+    width: 12%;
     -webkit-flex:center;
     justify-content: center;
     font-size: 15px;
@@ -59,11 +65,15 @@ header{
     color:#7a1501;
 }
 .highlight{
-    padding: 10px;
+    padding: 14px 12px;
     background-color: #f9da0c;
     position: relative;
     top:16rem;
     margin-right: 55rem;
+    font-family: "lato", sans-serif;
+    color: #7a1501;
+    font-size: .9em;
+    
 }
 .img_owl{
     width: 100%;
@@ -73,22 +83,22 @@ header{
 }
 .img{
     float: left;
-    margin-left: 8rem;
-    
-    
-    
+    margin-left: 12rem;
+  
 }
 .about_quote{
-    font-size: 24px;
+    font-size: 2.4em;
     text-transform: uppercase;
-    font-weight: bold;
     margin: 0;
     padding: 0;
-    background-color: #fff;
     text-align: right;
-    width: 60%;
+    width: 45%;
     float: left;
-    margin-top: 8rem;
+    margin-top: 4rem;
+    font-family: 'franchise';
+    font-weight: bold;
+    line-height: 1.5;
+    letter-spacing: -2px;
 
 }
 main{
