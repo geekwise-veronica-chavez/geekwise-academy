@@ -42,7 +42,7 @@ nav{
 li{
     list-style: none;
     display:inline;
-    font-size: 12.8px;
+    font-size: 12.5px;
     text-transform: uppercase;
     padding: 8px;
      padding-top: 20px;
@@ -185,7 +185,7 @@ footer{
     padding: 0;
 }
 .icons{
-    width: 25%;
+    width: 29%;
     max-width: 35%;
     float:left;
     margin:0;
