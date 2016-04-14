@@ -44,7 +44,7 @@ header{
 }
 .flex-li{
     display: inline-flex;
-    width: 12%;
+    width: 13%;
     -webkit-flex:center;
     justify-content:center;
     font-size: 16px;
@@ -181,7 +181,7 @@ label{
     }
     .about_header{
         height: auto;
-        width: 100%;
+        width: 80%;
     }
     .nav_about{
         height: auto;
@@ -192,12 +192,18 @@ label{
         width: 100%;
         height: 235px;
     }
+    .img{
+        margin: 0;
+        position: relative;
+        right:150px;
+        top: 35px;
+    
+    }
     .about_quote{
-        width:50%;
+        width:35%;
+        margin-top: 70px;
     }
-    .flex-li{
-        width:7rem;
-    }
+   
     .section_about{
         height:60rem;
     }
@@ -211,12 +217,13 @@ label{
         width: 100%;
     }
     .img_owl{
-        height:208px;
+        height:150px;
+    }
+    .img{
+        display: none;
     }
     .about_quote{
-        width: 45%;
-        position: relative;
-        top: -5px
+        display: none;
     }
 
     .nav_div{
@@ -225,7 +232,7 @@ label{
     
     .about-label{
         display: block;
-        font-size: 18px;
+        font-size: 24px;
         float: right;
         padding:10px;
         border: solid lightgrey 1px;
@@ -233,28 +240,25 @@ label{
         position: relative;
         margin-top: 5px;
     }
+    .fa{
+        color: grey;
+        
+    }
     
     input:checked + .nav_div{
         display: block;
     }
     .highlight{
-        margin: 0;
-        position: absolute;
-        top: 0;
-        right: 65px;
-        margin-top: 25px;    
+       
+          
     }
     label{
         margin-right: 15px;
     }
-    .img_owl{
-        margin-bottom: 35px;
-    }
+    
     .padding-none{
         padding: 0;
-        margin: 0;
-        
-        
+        margin: 0;   
     }
     #padding-up{
         padding: 0;
@@ -292,10 +296,8 @@ label{
         }
         .highlight{
             position: relative;
-            top: -7px;
-            margin: 0;
-            left: 5px;
-             
+            top: -10px;
+            
         }
         .img_owl{
             height: 210px;
@@ -324,9 +326,11 @@ label{
         height: auto;
         
     }
-    .nav_about{
     
-        
+    .highlight{
+        position: relative;
+        top: -240px;
+        left: 280px;
     }
     #about{
         width: 100%;
@@ -342,6 +346,11 @@ label{
         margin-right: 50px;
     }
     
+}
+@media only screen and (max-width:580px){
+    .highlight{
+        position: absolute;
+    }
 }
 @media only screen and (max-width:30rem){
     .about_header{
