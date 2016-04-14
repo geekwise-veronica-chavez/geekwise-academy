@@ -16,7 +16,7 @@ header{
     background-color: #fff;
 }
 .about_header{
-    width: 75%;
+    width: 70%;
     height:100px;
     margin: 0 auto;
     padding: 0;
@@ -30,7 +30,7 @@ header{
     
 }
 .nav_about{
-    width: 75%;
+    width: 80%;
     float: left;
     padding: 0;
     margin: 0;
@@ -39,18 +39,20 @@ header{
 .flexbox{
     width: 100%;
     margin: 0;
+    text-align: center;
     
 }
 .flex-li{
     display: inline-flex;
     width: 12%;
     -webkit-flex:center;
-    justify-content: center;
-    font-size: 15px;
+    justify-content:center;
+    font-size: 16px;
     text-transform: uppercase;
     padding-top: 20px;
     padding-right: 5px;
     font-weight: bold;
+    font-family: "lato", sans-serif;
     
 }
 .main{
@@ -64,41 +66,44 @@ header{
 .yellow{
     color:#7a1501;
 }
+.sign-tag{
+    list-style: none;
+}
 .highlight{
-    padding: 14px 12px;
+    padding: 18px 12px 18px 12px;
     background-color: #f9da0c;
-    position: relative;
-    top:16rem;
-    margin-right: 55rem;
     font-family: "lato", sans-serif;
     color: #7a1501;
-    font-size: .9em;
-    
+    font-size: 1.1em;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 30px;
 }
 .img_owl{
     width: 100%;
     background-color: #fff;
     margin: auto;
-    height: 150px
+    height: 150px;
 }
 .img{
     float: left;
-    margin-left: 12rem;
+    margin-left: 15rem;
+    
   
 }
 .about_quote{
-    font-size: 2.4em;
+    font-size: 3.2em;
     text-transform: uppercase;
     margin: 0;
     padding: 0;
     text-align: right;
     width: 45%;
     float: left;
-    margin-top: 4rem;
-    font-family: 'franchise';
+    margin-top: 3rem;
+    font-family: 'franchise',sans-serif;
     font-weight: bold;
     line-height: 1.5;
-    letter-spacing: -2px;
+    
 
 }
 main{
@@ -115,19 +120,18 @@ main{
    
 }
 #about{
-    width: 40%;
+    width: 36%;
     float: left;
     color: #fff;
-    font-size: 13px;
+    font-size: 14px;
     padding-left: 35px;
-    letter-spacing: 2px;
-    line-height: 1.3;
+    line-height: 2;
     margin-left: 25px;
-    font-family: sans-serif;
+    font-family:"lato",sans-serif;
 
 }
 .about_what{
-    
+   margin-top: 25px; 
 }
 .length{
     width: 100%;
@@ -135,7 +139,7 @@ main{
 
 h1{
     text-transform: uppercase;
-    font-family: monospace;
+    font-family:"franchise";
     font-size: 20px;
 }
 .want_to{
