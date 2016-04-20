@@ -420,75 +420,102 @@ footer{
 .course_page{
     background-color: #fff;
 }
-.course_header{
-    background-color:#7a1501;
-    height: 100px;
-}
+
 .red-bg{
     background-color:#7a1501;
-    padding: 25px;
+      
      
 }
-/*
-.geekwise_sm{
-
-    margin-left: 125px;
-
+.logo_gk{
+    display: none;
 }
-*/
-
+/*navagation same as other pages */
 .course_nav{
-    width: 90%;
+    width: 80%;
     padding: 0;
-    margin: 0;
-    display: flex;
-    -webkit-flex:flex-end;
-    justify-content: flex-end;
+    margin: 0 auto;
+    background-color:#7a1501;
+    padding-bottom: 80px;
+    
     
 }
+.flex2{
+    width: 85%;
+}
 
+.small_gk{
+    float: left;
+    margin-right: 85px;
+}
 .course{
     color:#fff; 
    
 }
 .yellow{
     color:#f9da0c;
+    font-family: "lato", sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 600;
 }
 .yellow:hover{
     color:#fff;
 }
-
+.course_li{
+   font-family: "lato", sans-serif;
+    font-size: 14px; 
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.course_li:hover{
+    color:#f9da0c;
+}
+.course_sign{
+    font-family: "lato", sans-serif;
+    font-size: 14px;
+    color: #7a1501;
+    text-decoration: none;
+    
+}
+.yellow_sign{
+    background-color: #f9da0c;
+}
 .right{
     background-color: #f9da0c;
     color: #7a1501;
 }
 .course_quote{
     margin: auto;
-    width: 60%;
+    width: 85%;
     height: auto;
     color: #fff;
-    font-size: 18px;
+    font-size: 21px;
     float: left;
-    margin-left: 130px;
-    padding-top: 7rem;
+    margin-left: 85px;
+    padding-top: 2.2em;
     font-weight:bold;
-    font-family: monospace;
-    letter-spacing: -1px;
+    font-family:"franchise", sans-serif;
+    letter-spacing: 1px;
+   
 
 }
 .main_course{
-    width: 80%;
+    width: 85%;
+    font-family: "lato", sans-serif;
 }
 .course_info{
     width: 80%;
     margin: auto;
-    font-size: 14px;
+    font-size: 13px;
     padding-top: 30px;
     padding-bottom: 30px;
+    line-height: 1.4;
+    text-align: left;
 }
 /*course page table css*/
 .course_table{
-    font-size: 12px;
+    font-size: 11px;
     width: 85%;
     margin: auto;
 }
@@ -501,6 +528,7 @@ footer{
 .top_table{
     font-size: 14px; 
     width: 100%;
+    font-weight: 200;
 }
 
 #instructor{
@@ -550,13 +578,32 @@ u{
     text-transform: uppercase;
     color: black;
 }
-
-@media only screen and (max-width:1200px)
+/*media query begin for course page*/
+@media only screen and (max-width:1180px){
     
-@media only screen and (max-width:780px){
+    .course_nav{
+        width: 100%;
+        margin: 0;
+    }
+    .main_course{
+        width:95%;
+    }
+}
+@media only screen and (max-width:1050px){
+    .course_li{
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width:900px){
     
-    .geekwise_sm{
-    
+    .geekwise_sm_course{
+        visibility: hidden;
+    }
+    li{
+        text-align: center;
+    }
+    .sign_display{
+        display: none;
     }
     .top_table{
         display: none;
